@@ -1,0 +1,44 @@
+#inputError{
+    color: red;
+    font-weight: bolder;
+
+}
+#inputSuccess{
+    color: green;
+    font-weight: bolder;
+}
+*{
+    list-style: none;
+    font-family: sans-serif;
+}
+.block{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+
+}
+.block span{
+    text-align: center;
+
+    border-left: 1px solid rgb(0, 0, 0);
+    padding: 0px 20px;
+    border-right: 1px solid black;
+}
+.block{
+    border: 1px solid black;
+}
+.block button{
+    border: none;
+    margin: 0px 10px;
+}
+form input{
+    margin: 10px 0px;
+}
+body{
+    padding: 40px;
+}
+table{
+    text-align: center;
+}
